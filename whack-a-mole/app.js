@@ -32,7 +32,7 @@ function countDown() {
     if(currentTime === -1) {
         timeLeft.textContent = 0
         clearInterval(timerId)
-        setTimeout(alert('Game over! Your final score is: ' + result), 1000)
+        alert('Game over! Your final score is: ' + result)
     }
 }
 
