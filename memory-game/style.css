@@ -1,0 +1,19 @@
+.root{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.grid {
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 340px;
+    width: 460px;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10%;
+}
+.title {
+    display: flex;
+    align-self: center;
+}
