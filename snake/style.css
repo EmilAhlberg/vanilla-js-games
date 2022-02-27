@@ -1,0 +1,37 @@
+.root{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.grid {
+    margin-top: 10%;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    border-width: 15px;
+    border-style: solid;
+}
+
+.grid div {
+    width: 40px;
+    height: 40px;
+    outline: dashed grey;
+}
+
+.apple {
+    background-color: red;
+}
+
+.snake {
+    background-color: blue;
+    border-color: lawngreen;
+    box-shadow: hotpink;
+}
+
+.start {
+    outline: none;
+}
